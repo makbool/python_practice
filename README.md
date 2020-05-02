@@ -67,7 +67,7 @@ git rm
 
 	to delete files
 
-git commit -m "<message>"
+git commit -m "message"
 
 	commits staged changes to branch in local repository
 
@@ -114,7 +114,10 @@ git push
 -----------------------------
 Git rebase
 
-git rebase <source-branch-name>
+switch to target branch
+
+git rebase source-branch-name
+
 
 ---------------------------------
 
