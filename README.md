@@ -55,6 +55,14 @@ git checkout
 
 	switch between branches
 
+git branch branch-name
+	
+	to create a branch
+
+git branch -d branch-name
+	
+	to delete a branch
+
 git status
 
 	shows the current branch status including commits, staged, unstaged and untracked files
@@ -118,14 +126,21 @@ switch to target branch
 
 git rebase source-branch-name
 
-
----------------------------------
-
 -------------------------------------------------
+
 https://git-scm.com/
 
 --------------------------------------------------
 
+$ code --version
+1.19.2
+490ef761b76b3f3b3832eff7a588aac891e5fe80
+x64
+
+$ python --version
+Python 3.7.3
+
+--------------------------------
 
 Python
 
