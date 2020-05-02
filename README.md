@@ -81,6 +81,10 @@ git log
 	
 	displays the list of all commits
 
+git log --one-line
+
+git log --one-line --graph
+
 git pull
 	
 	updates branch in local repo with the branch in remote repo along with other repo updates (new branches).
@@ -96,13 +100,23 @@ HEAD
 
 	Top commit of the branch in local repo
 
-
-
-Today
-
+----------------------------------------
 Git merge 
 
+Merging b2 to b1
+
+git checkout b1
+
+git merge --no-ff b2
+
+git push
+
+-----------------------------
 Git rebase
+
+git rebase <source-branch-name>
+
+---------------------------------
 
 -------------------------------------------------
 https://git-scm.com/
