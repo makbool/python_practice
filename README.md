@@ -2,7 +2,31 @@
 
 GitHub
 
+Repository hosting service
+
+	Similar : BitBucket
+
+Repository
+
+	Place where we can save/maintain project source code
+
+Branch
+
+	Place where code actually resides
+
+	master - default branch
+
+	branch_a - add/modify
+
+	branch_b - add/modify
+
+
 Git
+
+Source Control Management (SCM)	 tool
+
+
+
 
 Untracked 
 
@@ -22,6 +46,15 @@ Staged
 
 Git Commands
 
+git clone
+
+	copies remote repository to local machine
+
+
+git checkout
+
+	switch between branches
+
 git status
 
 	shows the current branch status including commits, staged, unstaged and untracked files
@@ -30,9 +63,13 @@ git add
 
 	to move files from unstaged to staged
 
+git rm
+
+	to delete files
+
 git commit -m "<message>"
 
-	commit changes to branch in local repository
+	commits staged changes to branch in local repository
 
 
 git push
@@ -43,3 +80,68 @@ git push
 git log
 	
 	displays the list of all commits
+
+git pull
+	
+	updates branch in local repo with the branch in remote repo along with other repo updates (new branches).
+	Advanced (TBD) : Performs Fetch and Merge
+
+branch origin vs branch HEAD
+
+origin
+	
+	Last/Latest commit of the branch in local repo synced with remote repo. 
+
+HEAD
+
+	Top commit of the branch in local repo
+
+
+
+Today
+
+Git merge 
+
+Git rebase
+
+-------------------------------------------------
+https://git-scm.com/
+
+--------------------------------------------------
+
+
+Python
+
+print function
+
+integers
+
+floats
+
+Operators 
+
+<p>+ - * / // % **</p>
+
++=, -=,...
+
+EDMAS
+
+booleans
+
+Comparison Operators >,<,>=, <=, ==,!=
+
+strings
+
+Read Inputs
+
+converters
+
+string functions
+
+List [value,...]
+
+Set {value,...}
+
+Tuple (value,...)
+
+Dictionary{key:value,....}
