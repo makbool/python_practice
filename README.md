@@ -4,112 +4,97 @@ GitHub
 
 Repository hosting service
 
-	Similar : BitBucket
+    Similar : BitBucket
 
 Repository
 
-	Place where we can save/maintain project source code
+    Place where we can save/maintain project source code
 
 Branch
 
-	Place where code actually resides
+    Place where code actually resides
 
-	master - default branch
+    master - default branch
 
-	branch_a - add/modify
+    branch_a - add/modify
 
-	branch_b - add/modify
-
+    branch_b - add/modify
 
 Git
 
-Source Control Management (SCM)	 tool
+Source Control Management (SCM) tool
 
+Untracked
 
-
-
-Untracked 
-
-	New Files
-
+    New Files
 
 Unstaged
 
-	Modified but added to Stage
-
+    Modified but added to Stage
 
 Staged
 
-	Files which we want commit	
-
-
+    Files which we want commit
 
 Git Commands
 
 git clone
 
-	copies remote repository to local machine
-
+    copies remote repository to local machine
 
 git checkout
 
-	switch between branches
+    switch between branches
 
 git branch branch-name
-	
-	to create a branch
+to create a branch
 
 git branch -d branch-name
-	
-	to delete a branch
+to delete a branch
 
 git status
 
-	shows the current branch status including commits, staged, unstaged and untracked files
+    shows the current branch status including commits, staged, unstaged and untracked files
 
 git add
 
-	to move files from unstaged to staged
+    to move files from unstaged to staged
 
 git rm
 
-	to delete files
+    to delete files
 
 git commit -m "message"
 
-	commits staged changes to branch in local repository
-
+    commits staged changes to branch in local repository
 
 git push
 
-	sends all the commits to branch in remote repository
-
+    sends all the commits to branch in remote repository
 
 git log
-	
-	displays the list of all commits
+displays the list of all commits
 
 git log --one-line
 
 git log --one-line --graph
 
 git pull
-	
-	updates branch in local repo with the branch in remote repo along with other repo updates (new branches).
-	Advanced (TBD) : Performs Fetch and Merge
+updates branch in local repo with the branch in remote repo along with other repo updates (new branches).
+Advanced (TBD) : Performs Fetch and Merge
 
 branch origin vs branch HEAD
 
 origin
-	
-	Last/Latest commit of the branch in local repo synced with remote repo. 
+Last/Latest commit of the branch in local repo synced with remote repo.
 
 HEAD
 
-	Top commit of the branch in local repo
+    Top commit of the branch in local repo
 
-----------------------------------------
-Git merge 
+---
+
+Git merge
 
 Merging b2 to b1
 
@@ -119,61 +104,16 @@ git merge --no-ff b2
 
 git push
 
------------------------------
+---
+
 Git rebase
 
 switch to target branch
 
 git rebase source-branch-name
 
--------------------------------------------------
+---
 
 https://git-scm.com/
 
---------------------------------------------------
-
-$ code --version
-1.19.2
-490ef761b76b3f3b3832eff7a588aac891e5fe80
-x64
-
-$ python --version
-Python 3.7.3
-
---------------------------------
-
-Python
-
-print function
-
-integers
-
-floats
-
-Operators 
-
-<p>+ - * / // % **</p>
-
-+=, -=,...
-
-EDMAS
-
-booleans
-
-Comparison Operators >,<,>=, <=, ==,!=
-
-strings
-
-Read Inputs
-
-converters
-
-string functions
-
-List [value,...]
-
-Set {value,...}
-
-Tuple (value,...)
-
-Dictionary{key:value,....}
+---
