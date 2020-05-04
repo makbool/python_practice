@@ -1,119 +1,71 @@
 # python_practice
 
-GitHub
+\$ python --version
 
-Repository hosting service
+Python 3.7.3
 
-    Similar : BitBucket
+\$ code --version
 
-Repository
+1.19.2
 
-    Place where we can save/maintain project source code
+490ef761b76b3f3b3832eff7a588aac891e5fe80
 
-Branch
-
-    Place where code actually resides
-
-    master - default branch
-
-    branch_a - add/modify
-
-    branch_b - add/modify
-
-Git
-
-Source Control Management (SCM) tool
-
-Untracked
-
-    New Files
-
-Unstaged
-
-    Modified but added to Stage
-
-Staged
-
-    Files which we want commit
-
-Git Commands
-
-git clone
-
-    copies remote repository to local machine
-
-git checkout
-
-    switch between branches
-
-git branch branch-name
-to create a branch
-
-git branch -d branch-name
-to delete a branch
-
-git status
-
-    shows the current branch status including commits, staged, unstaged and untracked files
-
-git add
-
-    to move files from unstaged to staged
-
-git rm
-
-    to delete files
-
-git commit -m "message"
-
-    commits staged changes to branch in local repository
-
-git push
-
-    sends all the commits to branch in remote repository
-
-git log
-displays the list of all commits
-
-git log --one-line
-
-git log --one-line --graph
-
-git pull
-updates branch in local repo with the branch in remote repo along with other repo updates (new branches).
-Advanced (TBD) : Performs Fetch and Merge
-
-branch origin vs branch HEAD
-
-origin
-Last/Latest commit of the branch in local repo synced with remote repo.
-
-HEAD
-
-    Top commit of the branch in local repo
+x64
 
 ---
 
-Git merge
+Python Editors
 
-Merging b2 to b1
+--------------
 
-git checkout b1
+Atom
 
-git merge --no-ff b2
+SublimeText
 
-git push
+PyCharm
 
----
+VS Code
 
-Git rebase
 
-switch to target branch
+Python 
 
-git rebase source-branch-name
+Session 1
 
----
+print function
 
-https://git-scm.com/
+integers
 
----
+floats
+
+Operators
+
+strings
+
+booleans
+
+type function
+
+converters
+
+<p>+ - * / // % **</p>
+
++=, -=,...
+
+Read Inputs
+
+EDMAS
+
+Comparison Operators >,<,>=, <=, ==,!=
+
+Read Inputs
+
+string functions
+
+List [value,...]
+
+Set {value,...}
+
+Tuple (value,...)
+
+Dictionary{key:value,....}
+
