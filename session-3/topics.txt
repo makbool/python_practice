@@ -1,0 +1,18 @@
+String remaining Functions
+
+Random Number Functions (random module)
+    random, randrange, shuffle, choice, uniform
+
+Math Constants
+
+String special operators
+String formatting operator
+
+Bitwise Operators
+
+Conditions and Loops
+
+
+List Functions
+Tuple Functions
+Dictionary Functions

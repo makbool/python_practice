@@ -30,6 +30,7 @@ VS Code
 Python 
 
 Session 1
+-------------------------------------
 
 print function
 
@@ -69,3 +70,26 @@ Tuple (value,...)
 
 Dictionary{key:value,....}
 
+
+Session 2
+-------------------------------------------
+
+Python Interactive Shell/Interpreter
+
+String Functions/Manipulations
+lower, upper, count, swapcase, islower, isupper, replace, split, title
+
+
+Logical Operators
+    and, or, not
+
+Membership Operators
+    in, not in
+
+Identity Operators
+    is, is not
+
+single ('), double (") and triple(''') quotations
+
+Math Functions (math module)
+    abs, ceil, floor, max, min, pow, round, sqrt
