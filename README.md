@@ -106,3 +106,15 @@ String special operators
 String formatting operator
 
 %d, %f, %s
+
+
+
+Conditional Statements 
+
+    if, if/else, if/elif/else, nested if
+
+Loops
+    while, for
+
+
+
