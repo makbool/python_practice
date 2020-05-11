@@ -1,5 +1,4 @@
-Bitwise Operators
-
-List Functions
-Tuple Functions
-Dictionary Functions
+List Operations
+Set Operations
+Tuple Operations
+Dictionary Operations
