@@ -1,14 +1,14 @@
 # List Operations
 
-    # List is Ordered
+# List is Ordered
 
-    # Empty
-    # Initialize with values
-    # Add
-    # Update
-    # Remove
-    # Sort
-    # Count
+# Empty
+# Initialize with values
+# Add
+# Update
+# Remove
+# Sort
+# Count
 
 # empty_list = []
 # print(empty_list)
@@ -20,7 +20,7 @@
 # print(init_val_list)
 
 # # insert (index, value)
-# init_val_list.insert(3,44) 
+# init_val_list.insert(3,44)
 # print(init_val_list)
 
 # init_val_list[2] = 333
@@ -43,14 +43,14 @@
 
 
 # Set Operations
-    # Set is unorderd
-    # Empty
-    # Initialize with values
-    # Add
-    # Remove
-    # Update
-    # Sort
-    # Count
+# Set is unorderd
+# Empty
+# Initialize with values
+# Add
+# Remove
+# Update
+# Sort
+# Count
 
 # empty_set = set()
 # print(empty_set)
@@ -79,70 +79,84 @@
 
 
 # Dictionary Operations
-    # Empty
-    # Initialize with values
-    # Add
-    # Remove
-    # Update
-    # Sort
-    # Count
+# Empty
+# Initialize with values
+# Add
+# Remove
+# Update
+# Sort
+# Count
 
-empty_dict = {}
-print(empty_dict)
+# empty_dict = {}
+# print(empty_dict)
 
-init_val_dict = {'name':'Raj', 'age':21, 'score':21}
-# init_val_dict = {'name':'Raj', 'age':21,'name':'abc'}
-print(init_val_dict)
+# init_val_dict = {'name': 'Raj', 'age': 21, 'score': 21}
+# # init_val_dict = {'name':'Raj', 'age':21,'name':'abc'}
+# print(init_val_dict)
 
-print(init_val_dict['name'])
-print(init_val_dict['age'])
+# print(init_val_dict['name'])
+# print(init_val_dict['age'])
 
-print(init_val_dict.keys())
+# print(init_val_dict.keys())
 
-for key in init_val_dict.keys():
-    print(key)
+# for key in init_val_dict.keys():
+#     print(key)
 
-print(init_val_dict.values())
+# print(init_val_dict.values())
 
-for value in init_val_dict.values():
-    print(value)
+# for value in init_val_dict.values():
+#     print(value)
 
-print(init_val_dict.items())
+# print(init_val_dict.items())
 
-for key,value in init_val_dict.items():
-    print(f'{key} - {value}')
+# for key, value in init_val_dict.items():
+#     print(f'{key} - {value}')
 
-for key in init_val_dict.keys():
-    print(f'{key} - {init_val_dict[key]}')
+# for key in init_val_dict.keys():
+#     print(f'{key} - {init_val_dict[key]}')
 
 
-init_val_dict = {'name':'Raj', 'age':21, 'score':21}
+# init_val_dict = {'name': 'Raj', 'age': 21, 'score': 21}
 
-init_val_dict['gender'] = 'Male'
+# init_val_dict['gender'] = 'Male'
 
-print(init_val_dict)
+# print(init_val_dict)
 
-init_val_dict['score'] = 48
+# init_val_dict['score'] = 48
 
-print(init_val_dict)
+# print(init_val_dict)
 
-print(len(init_val_dict))
+# print(len(init_val_dict))
 
-student_totals ={'Neha':456,'Vahed':736, 'Riyaz':354,'Raj':121}
+student_totals = {'Neha': 456, 'Vahed': 736, 'Riyaz': 354, 'Raj': 121}
 
-print(sorted(student_totals.keys()))
-print(sorted(student_totals.values()))
+# print(sorted(student_totals.keys()))
+# print(sorted(student_totals.values()))
 
-for key in sorted(student_totals.keys()):
-    print(f'{key} - {student_totals[key]}')
+# for key in sorted(student_totals.keys()):
+#     print(f'{key} - {student_totals[key]}')
 
+# student_totals_sorted_keys = sorted(student_totals)
+# for r in student_totals_sorted_keys:
+#     print(r, student_totals[r])
+# print("--------------------------------------")
+student_totals_sorted_keys_rev = sorted(student_totals, reverse=True)
+
+print(student_totals_sorted_keys_rev)
+
+for r in student_totals_sorted_keys_rev:
+    print(r, student_totals[r])
+# print("--------------------------------------")
+# student_totals_sorted_values = sorted(
+#     student_totals, key=student_totals.get)
+# for r in student_totals_sorted_values:
+#     print(r, student_totals[r])
+# print("--------------------------------------")
 # Display student names sorted by marks desc
+student_totals_sorted_values_rev = sorted(
+    student_totals, key=student_totals.get, reverse=True)
 
-# Tuple Operations
-    # Empty
-    # Initialize with values
-    # Add       -   NO  
-    # Remove    -   NO
-    # Update    -   NO
-    # Sort
-    # Count
+print(student_totals_sorted_values_rev)
+
+for r in student_totals_sorted_values_rev:
+    print(r, student_totals[r])

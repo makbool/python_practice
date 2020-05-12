@@ -1,0 +1,18 @@
+# Tuple Operations
+    # Empty
+    # Initialize with values
+    # Add       -   NO  
+    # Remove    -   NO
+    # Update    -   NO
+    # Sort
+    # Count
+
+
+Miscellaneous
+
+1. String join method
+2. 2d arrays
+
+
+
+

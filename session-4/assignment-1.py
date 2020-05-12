@@ -4,11 +4,13 @@
 
 import random
 
-numbers_list = []
+# numbers_list = []
 
-for x in range(1,11):
-    # print(x)
-    numbers_list.append(x)
+# for x in range(1,11):
+#     # print(x)
+#     numbers_list.append(x)
+
+numbers_list = list(range(1,11))
 
 # print(numbers_list)
 
