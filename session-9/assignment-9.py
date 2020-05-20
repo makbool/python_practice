@@ -19,3 +19,14 @@
 # 999
 # Output
 # -1
+
+b = int(input("enter your number:"))
+a = [34, 53, 65, 23, 76, 96, 86, 74]
+# x = a.index(b)
+# print(f"index of {b} is {x}")
+
+if b in a:
+    x = a.index(b)
+    print(f"index of {b} is {x}")
+else:
+    print(f"index of {b} is {-1}")
