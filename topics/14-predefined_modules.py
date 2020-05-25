@@ -17,3 +17,6 @@ print(int(math.pow(2, 4)))
 
 print(math.pi)
 print(math.e)
+
+
+print(dir(math))
