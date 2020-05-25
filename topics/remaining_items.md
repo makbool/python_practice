@@ -1,5 +1,6 @@
-# session-7
+# time
 
+# calendar
 
 # pprint
 
@@ -8,16 +9,20 @@
 # has key method
 
 # ord
+
 # chr
 
 # zip
 
 # Counter
-# Deque
-# Ordered Dictionary
-# Default Dictionary
-# Named Tuple
 
+# Deque
+
+# Ordered Dictionary
+
+# Default Dictionary
+
+# Named Tuple
 
 # Signal
 
@@ -32,4 +37,5 @@
 # TKinter
 
 # Python Executable File using Pyinstaller
-#   Options: One File, Windowed
+
+# Options: One File, Windowed
