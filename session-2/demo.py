@@ -47,10 +47,9 @@
 # print(another_new_courses)
 
 
-
 # SQS ='Single \nQuoted'
 # DQS = "Double Quoted"
-# TQS = '''Triple 
+# TQS = '''Triple
 # Quoted
 # New Line String
 
