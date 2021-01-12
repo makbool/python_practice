@@ -12,6 +12,10 @@
 
 # chr
 
+# tuple unpacking
+
+# args unpacking
+
 # zip
 
 # Counter
@@ -39,3 +43,7 @@
 # Python Executable File using Pyinstaller
 
 # Options: One File, Windowed
+
+# Anaconda
+
+# SPYDER
