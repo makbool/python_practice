@@ -1,4 +1,6 @@
-import math
+import sys, math
+
+print('Python Version is %s' % sys.version)
 
 a = 25
 print(math.sqrt(a))
@@ -14,9 +16,7 @@ print(math.floor(area_2))
 
 print(int(math.pow(2, 4)))
 
-
 print(math.pi)
 print(math.e)
-
 
 print(dir(math))
