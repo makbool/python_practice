@@ -1,7 +1,0 @@
-fizzbuzz program
-
-Debugging Python
-
-smallest integer in an Integer list
-
-Linear Search - for/else block

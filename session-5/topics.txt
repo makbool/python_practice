@@ -1,4 +1,0 @@
-List Operations
-Set Operations
-Tuple Operations
-Dictionary Operations
